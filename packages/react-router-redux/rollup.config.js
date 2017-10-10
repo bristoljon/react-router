@@ -12,12 +12,14 @@ var config = {
   external: [
     'react',
     'prop-types',
-    'react-router'
+    'react-router',
+    'immutable'
   ],
   globals: {
     react: 'React',
     'prop-types': 'PropTypes',
-    'react-router': 'ReactRouter'
+    'react-router': 'ReactRouter',
+    immutable: 'Immutable'
   }
 }
 

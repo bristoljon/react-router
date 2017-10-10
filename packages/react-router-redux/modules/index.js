@@ -1,5 +1,5 @@
 export ConnectedRouter from './ConnectedRouter'
-export { getLocation, createMatchSelector } from './selectors';
+export { getLocation, createMatchSelector } from './selectors'
 export { LOCATION_CHANGE, routerReducer } from './reducer'
 export {
   CALL_HISTORY_METHOD,
@@ -7,3 +7,6 @@ export {
   routerActions
 } from './actions'
 export routerMiddleware from './middleware'
+
+export { getLocation as getLocationImmutable, createMatchSelector as createMatchSelectorImmutable } from './selectorsImmutable'
+export { routerReducer as routerReducerImmutable } from './reducerImmutable'
